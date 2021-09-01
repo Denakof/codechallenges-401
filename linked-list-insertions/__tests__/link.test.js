@@ -1,7 +1,7 @@
 'use strict';
+const  LinkedList = require("../index");
 
-
-describe('linked-list-insertaions ', () => {
+describe('LinkedList1 ', () => {
     it('Can successfully add a node to the end of the linked list', () => {
         let ll = new LinkedList();
         ll.append('10');
